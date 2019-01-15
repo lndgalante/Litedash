@@ -15,6 +15,8 @@ Example:
 
   console.log(other)
   // => [1, 2, 3, [4]]
+
+Link: https://lodash.com/docs/4.17.11#concat
 */
 
 const concat = (array = [], ...values) => {

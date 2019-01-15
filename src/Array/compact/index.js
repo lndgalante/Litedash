@@ -10,8 +10,10 @@ Returns:
   (Array): Returns the new array of filtered values.
 
 Example:
-  _.compact([0, 1, false, 2, '', 3]);
+  _.compact([0, 1, false, 2, '', 3])
   // => [1, 2, 3]
+
+Link: https://lodash.com/docs/4.17.11#compact
 */
 
 const compact = (array = []) => {

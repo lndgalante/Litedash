@@ -11,11 +11,13 @@ Returns:
   (Array): Returns the new array of chunks.
 
 Example:
-  _.chunk(['a', 'b', 'c', 'd'], 2);
+  _.chunk(['a', 'b', 'c', 'd'], 2)
   // => [['a', 'b'], ['c', 'd']]
 
-  _.chunk(['a', 'b', 'c', 'd'], 3);
+  _.chunk(['a', 'b', 'c', 'd'], 3)
   // => [['a', 'b', 'c'], ['d']]
+
+Link: https://lodash.com/docs/4.17.11#chunk
 */
 
 const chunk = (array = [], size = 1) => {
